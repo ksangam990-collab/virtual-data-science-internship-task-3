@@ -1,0 +1,60 @@
+{
+    "total_records": 53775,
+    "cut_means": {
+        "Fair": {
+            "count": 1597,
+            "mean": 3761.65,
+            "std": 1542.06,
+            "median": 3443.0
+        },
+        "Good": {
+            "count": 4888,
+            "mean": 3859.09,
+            "std": 1830.13,
+            "median": 3612.42
+        },
+        "Very Good": {
+            "count": 12068,
+            "mean": 4014.44,
+            "std": 2037.72,
+            "median": 3605.0
+        },
+        "Premium": {
+            "count": 13737,
+            "mean": 4222.51,
+            "std": 2033.96,
+            "median": 3763.33
+        },
+        "Ideal": {
+            "count": 21485,
+            "mean": 3922.38,
+            "std": 2044.7,
+            "median": 3307.27
+        }
+    },
+    "test_results": {
+        "anova": {
+            "f_stat": 61.6827,
+            "p_value": 4.34841574428658e-52,
+            "reject_null": true,
+            "alpha": 0.05
+        },
+        "welch_ttest": {
+            "t_stat": -4.8825,
+            "p_value": 1.0506716948127128e-06,
+            "colorless_mean": 3965.39,
+            "near_colorless_mean": 4050.32,
+            "mean_diff": -84.92,
+            "ci_lower": -119.02,
+            "ci_upper": -50.83,
+            "reject_null": true
+        },
+        "chi_square": {
+            "chi2_stat": 4373.38,
+            "p_value": 0.0,
+            "dof": 28,
+            "cramers_v": 0.1426,
+            "reject_null": true
+        }
+    }
+}
